@@ -111,9 +111,9 @@ int prohod_code (file_in *cpu, my_stack *head, int prohod, int size) {
     
         ++num_cmd;
 
-        //++counter;      //без бесконечных циклов сегодня
-        //if (counter == 1000)
-          //abort ();
+        ++counter;      //без бесконечных циклов сегодня
+        if (counter == MAX_LEN)
+          assert (0);
 
         switch (cpu->code[ip]) {
 
@@ -465,8 +465,10 @@ int prohod_code (file_in *cpu, my_stack *head, int prohod, int size) {
             ++ip;
             break;
         }
-
-                pushka (head, -(pop (head) - pop (head)))
+                type qwe = (pop (head) - pop (head));
+                qwe = qwe * -1;
+                //printf ("%d", qwe);
+                pushka (head, qwe)
                 ++ip;
 
             break;

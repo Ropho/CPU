@@ -302,13 +302,11 @@ void constructor (my_stack *head, int size_array) {
 void delete_stack (my_stack **head) {
 
     assert (*head != nullptr);
-   
     destructor (*head);
-
 #ifndef NDEBUG
     dump (*head);
 #endif
-    free(*head);
+    //free(*head);      //ТУТ КРАШ!!!
     *head = nullptr;
 
 }
@@ -322,7 +320,7 @@ static void destructor (my_stack *head) {
     head->left_canary = MUSOR;
     head->right_canary = MUSOR;
 #else
-    free (head->arr);
+    //free (head->arr); // ТУТ КРАШ!!!!
 #endif
 
     (head)->arr = nullptr;

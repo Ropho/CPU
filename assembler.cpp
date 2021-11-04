@@ -5,15 +5,27 @@ int main (void) {
 /////////////////////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////////////////////
     FILE *in  = fopen ("com.txt", "rb");
-    //FILE *in  = fopen ("fib.txt", "rb");
+    //FILE *in  = fopen ("fib.txt", "rb");  //ФИБОНАЧИ
+    //FILE *in  = fopen ("qua.txt", "rb");  //КВАДРАТКА
+    
+    assert (in != nullptr);
+
     FILE *out = fopen ("binary.bin", "wb");
 
+    assert (out != nullptr);
+
     TEXT *cmd_file = (TEXT*)calloc(1, sizeof (TEXT));
+
+    assert (cmd_file != nullptr);
 
     TEXT_struct_fillin (cmd_file, in);
 
     assembler_fillin (cmd_file, out);
 
+    free (cmd_file);
+    cmd_file = nullptr;
+
+    fclose (in);
     fclose (out);
 
     return 0;
@@ -21,6 +33,8 @@ int main (void) {
 
 
 int cmd_num (char *cmd) {
+
+    assert (cmd != nullptr);
 
     if (strcmp (cmd, "push") == 0)
         return cmd_push;

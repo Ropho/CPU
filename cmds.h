@@ -19,7 +19,6 @@ enum CMD {
     cmd_jbe      = 0x24,
     cmd_je       = 0x25,
     cmd_jne      = 0x26,
-    cmd_jf       = 0x27,
     cmd_labl     = 0x30,
     cmd_call     = 0x40,
     cmd_ret      = 0x41,

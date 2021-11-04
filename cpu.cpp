@@ -51,13 +51,13 @@ int main (void) {
     }
     
 
-/*
-    dead (head)             //ПРОСТО КЕКВ НЕ ФРИШИТСЯ НИЧЕГО
-    puts ("CRASH_1???");
 
-    //dead (cpu.func)
-    puts ("CRASH_2???");
-*/
+    dead (head)             //ПРОСТО КЕКВ НЕ ФРИШИТСЯ НИЧЕГО
+    //puts ("CRASH_1???");
+
+    dead (cpu.func)
+    //puts ("CRASH_2???");
+
     return 0;
 }
 #endif

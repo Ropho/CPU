@@ -7,6 +7,7 @@
 
 const int signature = 0xADDEADDE;
 const double EPS = 0.01;
+const int MAX_LEN = 1000;
 
 typedef struct label {
 
