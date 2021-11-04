@@ -1,0 +1,434 @@
+                  　　　　　／＞　 フ   
+　　                　　　 | 　_　 _|   
+　 　　                 　／`ミ _x 彡   
+                　　 　 /　　　 　 |    
+                　　　 /　 ヽ　　 ﾉ     
+                　／￣|　　 |　|　|     
+                　| (￣ヽ＿_ヽ_)_)      
+                　＼二つ                
+                DEAD INSIDE 1000-7     
+
+STACK <head> [1c1460] at (int main().\cpu.cpp) at (.\cpu.cpp) (16): Stack created
+
+STACK <cpu.func> [1c1540] at (int main().\cpu.cpp) at (.\cpu.cpp) (21): Stack created
+
+STACK <head> [1c1460] at (int prohod.\cpu_func.cpp) at (.\cpu_func.cpp) (1801675124): 
+{
+size = 1
+capacity = 10
+	[0] = 1.000
+}
+
+STACK <head> [1c1460] at (int prohod.\cpu_func.cpp) at (.\cpu_func.cpp) (1801675124): EMPTY STACK
+
+STACK <head> [1c1460] at (int prohod.\cpu_func.cpp) at (.\cpu_func.cpp) (1801675124): 
+{
+size = 1
+capacity = 10
+	[0] = 4.000
+}
+
+STACK <head> [1c1460] at (int prohod.\cpu_func.cpp) at (.\cpu_func.cpp) (1801675124): EMPTY STACK
+
+STACK <head> [1c1460] at (int prohod.\cpu_func.cpp) at (.\cpu_func.cpp) (1801675124): 
+{
+size = 1
+capacity = 10
+	[0] = 2.000
+}
+
+STACK <head> [1c1460] at (int prohod.\cpu_func.cpp) at (.\cpu_func.cpp) (1801675124): EMPTY STACK
+
+STACK <head> [1c1460] at (int prohod.\cpu_func.cpp) at (.\cpu_func.cpp) (1801675124): 
+{
+size = 1
+capacity = 10
+	[0] = 1.000
+}
+
+STACK <head> [1c1460] at (int prohod.\cpu_func.cpp) at (.\cpu_func.cpp) (1801675124): 
+{
+size = 2
+capacity = 10
+	[0] = 1.000
+	[1] = 0.000
+}
+
+STACK <head> [1c1460] at (int prohod.\cpu_func.cpp) at (.\cpu_func.cpp) (1801675124): 
+{
+size = 1
+capacity = 10
+	[0] = 1.000
+}
+
+STACK <head> [1c1460] at (int prohod.\cpu_func.cpp) at (.\cpu_func.cpp) (1801675124): EMPTY STACK
+
+STACK <head> [1c1460] at (int prohod.\cpu_func.cpp) at (.\cpu_func.cpp) (1801675124): 
+{
+size = 1
+capacity = 10
+	[0] = 4.000
+}
+
+STACK <head> [1c1460] at (int prohod.\cpu_func.cpp) at (.\cpu_func.cpp) (1801675124): 
+{
+size = 2
+capacity = 10
+	[0] = 4.000
+	[1] = 4.000
+}
+
+STACK <head> [1c1460] at (int prohod.\cpu_func.cpp) at (.\cpu_func.cpp) (1801675124): 
+{
+size = 1
+capacity = 10
+	[0] = 4.000
+}
+
+STACK <head> [1c1460] at (int prohod.\cpu_func.cpp) at (.\cpu_func.cpp) (1801675124): EMPTY STACK
+
+STACK <head> [1c1460] at (int prohod.\cpu_func.cpp) at (.\cpu_func.cpp) (1801675124): 
+{
+size = 1
+capacity = 10
+	[0] = 16.000
+}
+
+STACK <head> [1c1460] at (int prohod.\cpu_func.cpp) at (.\cpu_func.cpp) (1801675124): 
+{
+size = 2
+capacity = 10
+	[0] = 16.000
+	[1] = 4.000
+}
+
+STACK <head> [1c1460] at (int prohod.\cpu_func.cpp) at (.\cpu_func.cpp) (1801675124): 
+{
+size = 3
+capacity = 10
+	[0] = 16.000
+	[1] = 4.000
+	[2] = 1.000
+}
+
+STACK <head> [1c1460] at (int prohod.\cpu_func.cpp) at (.\cpu_func.cpp) (1801675124): 
+{
+size = 4
+capacity = 10
+	[0] = 16.000
+	[1] = 4.000
+	[2] = 1.000
+	[3] = 2.000
+}
+
+STACK <head> [1c1460] at (int prohod.\cpu_func.cpp) at (.\cpu_func.cpp) (1801675124): 
+{
+size = 3
+capacity = 10
+	[0] = 16.000
+	[1] = 4.000
+	[2] = 1.000
+}
+
+STACK <head> [1c1460] at (int prohod.\cpu_func.cpp) at (.\cpu_func.cpp) (1801675124): 
+{
+size = 2
+capacity = 10
+	[0] = 16.000
+	[1] = 4.000
+}
+
+STACK <head> [1c1460] at (int prohod.\cpu_func.cpp) at (.\cpu_func.cpp) (1801675124): 
+{
+size = 3
+capacity = 10
+	[0] = 16.000
+	[1] = 4.000
+	[2] = 2.000
+}
+
+STACK <head> [1c1460] at (int prohod.\cpu_func.cpp) at (.\cpu_func.cpp) (1801675124): 
+{
+size = 2
+capacity = 10
+	[0] = 16.000
+	[1] = 4.000
+}
+
+STACK <head> [1c1460] at (int prohod.\cpu_func.cpp) at (.\cpu_func.cpp) (1801675124): 
+{
+size = 1
+capacity = 10
+	[0] = 16.000
+}
+
+STACK <head> [1c1460] at (int prohod.\cpu_func.cpp) at (.\cpu_func.cpp) (1801675124): 
+{
+size = 2
+capacity = 10
+	[0] = 16.000
+	[1] = 8.000
+}
+
+STACK <head> [1c1460] at (int prohod.\cpu_func.cpp) at (.\cpu_func.cpp) (1801675124): 
+{
+size = 1
+capacity = 10
+	[0] = 16.000
+}
+
+STACK <head> [1c1460] at (int prohod.\cpu_func.cpp) at (.\cpu_func.cpp) (1801675124): EMPTY STACK
+
+STACK <head> [1c1460] at (int prohod.\cpu_func.cpp) at (.\cpu_func.cpp) (1801675124): 
+{
+size = 1
+capacity = 10
+	[0] = 8.000
+}
+
+STACK <head> [1c1460] at (int prohod.\cpu_func.cpp) at (.\cpu_func.cpp) (1801675124): EMPTY STACK
+
+STACK <head> [1c1460] at (int prohod.\cpu_func.cpp) at (.\cpu_func.cpp) (1801675124): 
+{
+size = 1
+capacity = 10
+	[0] = 0.000
+}
+
+STACK <head> [1c1460] at (int prohod.\cpu_func.cpp) at (.\cpu_func.cpp) (1801675124): 
+{
+size = 2
+capacity = 10
+	[0] = 0.000
+	[1] = 8.000
+}
+
+STACK <head> [1c1460] at (int prohod.\cpu_func.cpp) at (.\cpu_func.cpp) (1801675124): 
+{
+size = 1
+capacity = 10
+	[0] = 0.000
+}
+
+STACK <head> [1c1460] at (int prohod.\cpu_func.cpp) at (.\cpu_func.cpp) (1801675124): EMPTY STACK
+
+STACK <head> [1c1460] at (int prohod.\cpu_func.cpp) at (.\cpu_func.cpp) (1801675124): 
+{
+size = 1
+capacity = 10
+	[0] = 8.000
+}
+
+STACK <head> [1c1460] at (int prohod.\cpu_func.cpp) at (.\cpu_func.cpp) (1801675124): EMPTY STACK
+
+STACK <head> [1c1460] at (int prohod.\cpu_func.cpp) at (.\cpu_func.cpp) (1801675124): 
+{
+size = 1
+capacity = 10
+	[0] = 2.828
+}
+
+STACK <head> [1c1460] at (int prohod.\cpu_func.cpp) at (.\cpu_func.cpp) (1801675124): EMPTY STACK
+
+STACK <head> [1c1460] at (int prohod.\cpu_func.cpp) at (.\cpu_func.cpp) (1801675124): 
+{
+size = 1
+capacity = 10
+	[0] = 2.828
+}
+
+STACK <head> [1c1460] at (int prohod.\cpu_func.cpp) at (.\cpu_func.cpp) (1801675124): 
+{
+size = 2
+capacity = 10
+	[0] = 2.828
+	[1] = 4.000
+}
+
+STACK <head> [1c1460] at (int prohod.\cpu_func.cpp) at (.\cpu_func.cpp) (1801675124): 
+{
+size = 1
+capacity = 10
+	[0] = 2.828
+}
+
+STACK <head> [1c1460] at (int prohod.\cpu_func.cpp) at (.\cpu_func.cpp) (1801675124): EMPTY STACK
+
+STACK <head> [1c1460] at (int prohod.\cpu_func.cpp) at (.\cpu_func.cpp) (1801675124): 
+{
+size = 1
+capacity = 10
+	[0] = -1.172
+}
+
+STACK <head> [1c1460] at (int prohod.\cpu_func.cpp) at (.\cpu_func.cpp) (1801675124): 
+{
+size = 2
+capacity = 10
+	[0] = -1.172
+	[1] = 2.000
+}
+
+STACK <head> [1c1460] at (int prohod.\cpu_func.cpp) at (.\cpu_func.cpp) (1801675124): 
+{
+size = 3
+capacity = 10
+	[0] = -1.172
+	[1] = 2.000
+	[2] = 1.000
+}
+
+STACK <head> [1c1460] at (int prohod.\cpu_func.cpp) at (.\cpu_func.cpp) (1801675124): 
+{
+size = 2
+capacity = 10
+	[0] = -1.172
+	[1] = 2.000
+}
+
+STACK <head> [1c1460] at (int prohod.\cpu_func.cpp) at (.\cpu_func.cpp) (1801675124): 
+{
+size = 1
+capacity = 10
+	[0] = -1.172
+}
+
+STACK <head> [1c1460] at (int prohod.\cpu_func.cpp) at (.\cpu_func.cpp) (1801675124): 
+{
+size = 2
+capacity = 10
+	[0] = -1.172
+	[1] = 2.000
+}
+
+STACK <head> [1c1460] at (int prohod.\cpu_func.cpp) at (.\cpu_func.cpp) (1801675124): 
+{
+size = 1
+capacity = 10
+	[0] = -1.172
+}
+
+STACK <head> [1c1460] at (int prohod.\cpu_func.cpp) at (.\cpu_func.cpp) (1801675124): EMPTY STACK
+
+STACK <head> [1c1460] at (int prohod.\cpu_func.cpp) at (.\cpu_func.cpp) (1801675124): 
+{
+size = 1
+capacity = 10
+	[0] = -0.586
+}
+
+STACK <head> [1c1460] at (int prohod.\cpu_func.cpp) at (.\cpu_func.cpp) (1801675124): EMPTY STACK
+
+STACK <head> [1c1460] at (int prohod.\cpu_func.cpp) at (.\cpu_func.cpp) (1801675124): 
+{
+size = 1
+capacity = 10
+	[0] = 2.828
+}
+
+STACK <head> [1c1460] at (int prohod.\cpu_func.cpp) at (.\cpu_func.cpp) (1801675124): 
+{
+size = 2
+capacity = 10
+	[0] = 2.828
+	[1] = -1.000
+}
+
+STACK <head> [1c1460] at (int prohod.\cpu_func.cpp) at (.\cpu_func.cpp) (1801675124): 
+{
+size = 1
+capacity = 10
+	[0] = 2.828
+}
+
+STACK <head> [1c1460] at (int prohod.\cpu_func.cpp) at (.\cpu_func.cpp) (1801675124): EMPTY STACK
+
+STACK <head> [1c1460] at (int prohod.\cpu_func.cpp) at (.\cpu_func.cpp) (1801675124): 
+{
+size = 1
+capacity = 10
+	[0] = -2.828
+}
+
+STACK <head> [1c1460] at (int prohod.\cpu_func.cpp) at (.\cpu_func.cpp) (1801675124): 
+{
+size = 2
+capacity = 10
+	[0] = -2.828
+	[1] = 4.000
+}
+
+STACK <head> [1c1460] at (int prohod.\cpu_func.cpp) at (.\cpu_func.cpp) (1801675124): 
+{
+size = 1
+capacity = 10
+	[0] = -2.828
+}
+
+STACK <head> [1c1460] at (int prohod.\cpu_func.cpp) at (.\cpu_func.cpp) (1801675124): EMPTY STACK
+
+STACK <head> [1c1460] at (int prohod.\cpu_func.cpp) at (.\cpu_func.cpp) (1801675124): 
+{
+size = 1
+capacity = 10
+	[0] = -6.828
+}
+
+STACK <head> [1c1460] at (int prohod.\cpu_func.cpp) at (.\cpu_func.cpp) (1801675124): 
+{
+size = 2
+capacity = 10
+	[0] = -6.828
+	[1] = 2.000
+}
+
+STACK <head> [1c1460] at (int prohod.\cpu_func.cpp) at (.\cpu_func.cpp) (1801675124): 
+{
+size = 3
+capacity = 10
+	[0] = -6.828
+	[1] = 2.000
+	[2] = 1.000
+}
+
+STACK <head> [1c1460] at (int prohod.\cpu_func.cpp) at (.\cpu_func.cpp) (1801675124): 
+{
+size = 2
+capacity = 10
+	[0] = -6.828
+	[1] = 2.000
+}
+
+STACK <head> [1c1460] at (int prohod.\cpu_func.cpp) at (.\cpu_func.cpp) (1801675124): 
+{
+size = 1
+capacity = 10
+	[0] = -6.828
+}
+
+STACK <head> [1c1460] at (int prohod.\cpu_func.cpp) at (.\cpu_func.cpp) (1801675124): 
+{
+size = 2
+capacity = 10
+	[0] = -6.828
+	[1] = 2.000
+}
+
+STACK <head> [1c1460] at (int prohod.\cpu_func.cpp) at (.\cpu_func.cpp) (1801675124): 
+{
+size = 1
+capacity = 10
+	[0] = -6.828
+}
+
+STACK <head> [1c1460] at (int prohod.\cpu_func.cpp) at (.\cpu_func.cpp) (1801675124): EMPTY STACK
+
+STACK <head> [1c1460] at (int prohod.\cpu_func.cpp) at (.\cpu_func.cpp) (1801675124): 
+{
+size = 1
+capacity = 10
+	[0] = -3.414
+}
+
+STACK <head> [1c1460] at (int prohod.\cpu_func.cpp) at (.\cpu_func.cpp) (1801675124): EMPTY STACK
+

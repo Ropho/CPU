@@ -1,0 +1,66 @@
+in
+pop ax
+in
+pop bx
+in
+pop cx
+push ax
+push 0
+je linear(a); a == 0
+push bx
+push bx
+mul
+push 4
+push ax
+push cx
+mul
+mul
+sub
+pop dx
+push 0
+push dx
+jb ans1; D < 0
+push dx
+sqrt
+pop dx
+push dx
+push bx
+sub
+push 2
+push ax
+mul
+del
+out
+push dx
+push -1
+mul
+push bx
+sub
+push 2
+push ax
+mul
+del
+out
+end
+linear(a):
+push bx
+push 0
+jne ans2
+push cx
+push 0
+jne ans1
+push 1000000;БЕСКОНЕЧНО КОРНЕЙ
+out
+end
+ans1:
+push 0; 0 КОРНЕЙ
+out
+end
+ans2:
+push bx
+push -1
+push cx
+mul
+del
+out
+end
