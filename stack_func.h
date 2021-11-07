@@ -11,9 +11,9 @@
 #include "assert.h"
 #include "string.h"
 
-//#define KEK    //define если работаем с Int иначе double
+#define INT_T   //define если работаем с Int иначе double
 
-#ifdef KEK
+#ifdef INT_T
     typedef int type;
     #define convert atoi
 #else
@@ -70,9 +70,9 @@
     #define dead(name) {delete_stack (&name);}
 #endif
 
-const int SIZE_CONSTRUCTOR = 10;
-const size_t MULTIPLIER = 10;
-const size_t DIVISOR = 20;
+const int SIZE_CONSTRUCTOR = 20;
+const size_t MULTIPLIER = 20;
+const size_t DIVISOR = 50;
 
 #define MUSOR 666
 

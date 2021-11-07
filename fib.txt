@@ -7,8 +7,8 @@ pop cx; НОМЕР N, число какое хотим получить
 push 2
 pop dx;current номер
 push cx
-push 3
-jbe konec1
+push 2
+ja konec1
 push ax
 out
 end

@@ -140,7 +140,7 @@ size_t EXIT_COND = 0;
 
     #else
             fprintf (out,"size = %d\ncapacity = %d\n", head->size_stack, head->size_array);
-            #ifdef KEK
+            #ifdef INT_T
                 for (int i = 0; i < head->size_stack; ++i)
                     fprintf (out, "\t[%d] = %d\n", i, *(head->arr + i));
                 fprintf (out, "}\n\n");
@@ -437,7 +437,7 @@ type pop (my_stack *head) {
         type tmp = *(head->arr + head->size_stack);
         *(head->arr + head->size_stack) = MUSOR;
     
-        if (head->size_stack < head->size_array / DIVISOR) { 
+        if (head->size_stack < head->size_array / DIVISOR) {
         #if defined D_2 || defined D_3  
             int old_size = head->size_array;
 
@@ -452,8 +452,8 @@ type pop (my_stack *head) {
 
             *(long long*)(head->arr + head->size_array) = tmp;
         #else
-            head->size_array = head->size_array / DIVISOR;
-            head->arr = (type*) realloc (head->arr, sizeof (type) * head->size_array);
+            //head->size_array = head->size_array / DIVISOR;
+            //head->arr = (type*) realloc (head->arr, sizeof (type) * head->size_array);
         #endif
         }
 

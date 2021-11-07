@@ -6,7 +6,7 @@ in
 pop cx
 push ax
 push 0
-je linear(a); a == 0
+je linear
 push bx
 push bx
 mul
@@ -17,8 +17,8 @@ mul
 mul
 sub
 pop dx
-push 0
 push dx
+push 0
 jb ans1; D < 0
 push dx
 sqrt
@@ -42,7 +42,7 @@ mul
 del
 out
 end
-linear(a):
+linear:
 push bx
 push 0
 jne ans2

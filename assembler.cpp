@@ -1,12 +1,14 @@
 #include "asm.h"
 
-
+// аргументы командной строки
 int main (void) {
 /////////////////////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////////////////////
-    FILE *in  = fopen ("com.txt", "rb");
-    //FILE *in  = fopen ("fib.txt", "rb");  //ФИБОНАЧИ
-    //FILE *in  = fopen ("qua.txt", "rb");  //КВАДРАТКА
+    //FILE *in  = fopen ("com.txt", "rb");
+    //FILE *in  = fopen ("fib.txt", "rb");  //ПАРАМОНАЧИ
+    //FILE *in  = fopen ("qua.txt", "rb");  //ПАРАМОНАТКА
+    FILE *in  = fopen ("quadr.txt", "rb"); //КВАДРАТЫ ЦЕЛЫХ ЧИСЕЛ
+    //FILE *in = fopen ("ris.txt", "rb");   //рисунок
     
     assert (in != nullptr);
 
@@ -14,16 +16,22 @@ int main (void) {
 
     assert (out != nullptr);
 
-    TEXT *cmd_file = (TEXT*)calloc(1, sizeof (TEXT));
+    TEXT cmd_file = {};
 
-    assert (cmd_file != nullptr);
+    TEXT_struct_fillin (&cmd_file, in);
+    
+    asm_type asem = {};
 
-    TEXT_struct_fillin (cmd_file, in);
+    // Можно сделать нормальную оценку на MAX_SIZE_CMD * n_lines
+    asem.code = (char*)calloc(MAX_LEN, sizeof (char));
+    assert (asem.code != nullptr);
 
-    assembler_fillin (cmd_file, out);
+    if (assembler_fillin (&cmd_file, out, 1, &asem))
+        puts ("BUGG in 1st asem");
+    
+    if (assembler_fillin (&cmd_file, out, 2, &asem))
+        puts ("BUGG in 2nd asem");
 
-    free (cmd_file);
-    cmd_file = nullptr;
 
     fclose (in);
     fclose (out);
@@ -31,7 +39,7 @@ int main (void) {
     return 0;
 }
 
-
+// defines
 int cmd_num (char *cmd) {
 
     assert (cmd != nullptr);
@@ -74,6 +82,8 @@ int cmd_num (char *cmd) {
         return cmd_je;
     if (strcmp (cmd, "jne") == 0)
         return cmd_jne;
+    if (strcmp (cmd, "print") == 0)
+        return cmd_print;
     else 
         return 0;
 }

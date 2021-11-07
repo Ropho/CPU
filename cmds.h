@@ -1,7 +1,16 @@
-const char cmd_version = 0xA7;
+const char Version = 0xA7;
 
+// defines
 enum CMD {
-
+/*
+    #define CMD_DEF(name, number, code) cmd_##name = number,
+    #define REG_DEF(....)
+    #define MOD_DEF(....)
+    #include "...."
+    #undef CMD_DEF
+    #undef REG_DEF
+    #undef MOD_DEF
+*/
     cmd_end      = 0x10,
     cmd_push     = 0x11,
     cmd_pop      = 0x12,
@@ -22,5 +31,9 @@ enum CMD {
     cmd_labl     = 0x30,
     cmd_call     = 0x40,
     cmd_ret      = 0x41,
+    cmd_print    = 0x50,
 
 };
+
+//CMD_DEF(end, 0x10, {...})
+//CMD_DEF(push, 0x11, {...})

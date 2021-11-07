@@ -2,14 +2,9 @@
 
 int main (void) {
 
-    FILE *out = fopen ("DUMP", "w");       //clearing the dump  file
-    kotik(out)
-    fclose (out);
-/////////////////////////////////////////////////////////////////////////////////////////////////////
-/////////////////////////////////////////////////////////////////////////////////////////////////////
-    FILE *in = fopen ("binary.bin", "rb");
+    dump
 
-#if defined D_2 || defined D_1
+    FILE *in = fopen ("binary.bin", "rb");
 
     my_stack *head = nullptr;
 
@@ -17,21 +12,22 @@ int main (void) {
 
     int size = FILESIZE_FUNC_FSTAT (in);
 
-    file_in cpu = {};
+    cpu_type cpu = {};
     create (cpu.func)
 
-    for (int i = 0; i < 100;++i)
-        (cpu.labels[i]).num_ip = -1;
+    int sign = 0;
 
-    fread (&cpu.sign, sizeof (int), 1, in);
-    if (cpu.sign != signature) {
+    fread (&sign, sizeof (int), 1, in);
+    if (sign != Signature) {
 
         puts ("WRONG SIGNATURE");
         return 0;
     }
 
-    fread (&cpu.ver, sizeof (char), 1, in);         
-    if (cpu.ver != cmd_version) {
+    char ver = 0;
+    fread (&ver, sizeof (char), 1, in); 
+
+    if (ver != Version) {
 
         puts ("WRONG VERSION");
         return 0;
@@ -42,22 +38,11 @@ int main (void) {
 
     fread (cpu.code, sizeof (char), size, in);
 
-    if (prohod_code (&cpu, head, 1, size) == 0) {
-        printf ("BUGGGG 1");
-    }
+    prohod_code (&cpu, head, size);
 
-    if (prohod_code (&cpu, head, 2, size) == 0) {
-        printf ("BUGGGG 2");
-    }
-    
-
-
-    dead (head)             //ПРОСТО КЕКВ НЕ ФРИШИТСЯ НИЧЕГО
-    //puts ("CRASH_1???");
+    dead (head)             
 
     dead (cpu.func)
-    //puts ("CRASH_2???");
 
     return 0;
 }
-#endif
