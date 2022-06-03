@@ -1,0 +1,6 @@
+in
+push 4
+sqrt
+out
+out
+end

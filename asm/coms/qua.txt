@@ -1,0 +1,67 @@
+in
+pop ax
+in
+pop bx
+in
+pop cx
+push ax
+push 0
+je linear
+push bx
+push bx
+mul
+push 4
+push ax
+push cx
+mul
+mul
+sub
+pop dx
+push dx
+push 0
+jb ans1
+push dx
+sqrt
+pop dx
+push dx
+push bx
+sub
+push 2
+push ax
+mul
+del
+out
+push dx
+push -1
+mul
+push bx
+sub
+push 2
+push ax
+mul
+del
+out
+jump end
+linear:
+push bx
+push 0
+jne ans2
+push cx
+push 0
+jne ans1
+push 1000
+out
+jump end
+ans1:
+push 0
+out
+jump end
+ans2:
+push bx
+push -1
+push cx
+mul
+del
+out
+end:
+end
